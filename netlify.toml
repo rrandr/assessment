@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "/netlify/:query"
+  to = "https://www.google.com/search?q=:query"
+  status = 301
+
+  [[redirects]]
+  from = "/netlify/:query"
+  to = "https://www.google.com/search?q=:query"
+  status = 200
+  force = true
+  proxy = true
